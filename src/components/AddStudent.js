@@ -41,7 +41,7 @@ class AddStudent extends Component {
                 <Dialog open={this.state.open} onClose={this.handleClose}>
                     <DialogTitle>Add Student</DialogTitle>
                     <DialogContent style={{ paddingTop: 20 }} >
-                        <TextField autoFocus fullWidth label="Student Name" name="email" onChange={this.handleChange} />
+                        <TextField autoFocus fullWidth label="Student Name" name="name" onChange={this.handleChange} />
                         <TextField autoFocus fullWidth label="Student Email" name="email" onChange={this.handleChange} />
                     </DialogContent>
                     <DialogActions>

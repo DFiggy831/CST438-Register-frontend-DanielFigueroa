@@ -105,9 +105,9 @@ class Semester extends Component {
             Get Schedule
           </Button>
 
-          <ButtonGroup>
+          <Button id="adding">
             <AddStudent addStudent={this.addStudent} />
-          </ButtonGroup>
+          </Button>
           <ToastContainer autoClose={1500} />
         </div>
       </div>
